@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('path/to/SegoeUI.ttf');
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.box {
+    padding: 25px;
+    text-align: center;
+}
+
+.container1 {
+    position: relative;
+}
+
+.before {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container2 {
+    position: relative;
+}
+
+.after {
+    position: absolute;
+    top: 500px;
+    right: 0;
+}
+
+
